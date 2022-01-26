@@ -23,6 +23,10 @@
   padding-bottom: 3%;
 }
 
+#pricing {
+  text-align: center;
+}
+
 .container-fluid {
   padding: 3% 15%;
 }
@@ -122,4 +126,9 @@ h2 {
 .press-logo {
   width: 15%;
   margin: 20px 20px 50px;
+}
+
+/* Pricing Cards */
+.pricing-card-header {
+  margin-bottom: 0;
 }
