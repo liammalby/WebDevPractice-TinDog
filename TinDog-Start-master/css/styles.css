@@ -12,7 +12,6 @@
 
 /* Testimonial Section */
 #testimonials {
-  padding: 7% 15%;
   text-align: center;
   background-color: #ff4C68;
   color: #fff;
@@ -109,6 +108,10 @@ h2 {
 }
 
 /* Testimonial Images */
+.carousel-item {
+  padding: 7% 15%;
+}
+
 .testimonial-img {
   width: 10%;
   border-radius: 100%;
