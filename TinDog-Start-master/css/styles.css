@@ -175,3 +175,10 @@ h2 {
     text-align: center;
   }
 }
+
+@media (min-width: 700px){
+.row-cols-md-3>* {
+    width: 25%;
+    margin: 0 auto;
+  }
+}
