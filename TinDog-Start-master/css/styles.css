@@ -1,8 +1,14 @@
 body {
-  font-family: 'Montserrat', arial;
+  font-family: "Montserrat", arial;
+  overflow-x: hidden;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Montserrat";
   font-weight: bold;
 }
@@ -14,7 +20,7 @@ h2 {
 
 /* Headings */
 .big-heading {
-  font-family: 'Montserrat', arial;
+  font-family: "Montserrat", arial;
   font-weight: 900;
   font-size: 4rem;
   line-height: 1.5;
@@ -28,20 +34,20 @@ h2 {
 }
 
 #title {
-  background-color: #ff4C68;
+  background-color: #ff4c68;
   color: white;
 }
 
 /* Testimonial Section */
 #testimonials {
   text-align: center;
-  background-color: #ff4C68;
+  background-color: #ff4c68;
   color: #fff;
 }
 
 #press {
   text-align: center;
-  background-color: #ff4C68;
+  background-color: #ff4c68;
   padding-bottom: 3%;
 }
 
@@ -51,7 +57,7 @@ h2 {
 }
 
 #cta {
-  background-color: #ff4C68;
+  background-color: #ff4c68;
   padding: 5% 0;
   text-align: center;
 }
@@ -78,7 +84,7 @@ h2 {
 
 /* Navigation Bar */
 .navbar-brand {
-  font-family: 'Ubuntu', arial;
+  font-family: "Ubuntu", arial;
   font-size: 2.5rem;
   font-weight: bold;
 }
@@ -93,7 +99,7 @@ h2 {
 
 .nav-link {
   font-size: 1.5rem;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-weight: 200;
 }
 
@@ -110,13 +116,13 @@ h2 {
 
 /* Tick Colour */
 .tick-color {
-  color: #ff4C68;
+  color: #ff4c68;
   transform: scale(2);
   padding-bottom: 1rem;
 }
 
 .tick-color:hover {
-  color: #ff8D68;
+  color: #ff8d68;
 }
 
 /* Features Padding */
@@ -176,8 +182,8 @@ h2 {
   }
 }
 
-@media (min-width: 700px){
-.row-cols-md-3>* {
+@media (min-width: 700px) {
+  .row-cols-md-3 > * {
     width: 25%;
     margin: 0 auto;
   }
